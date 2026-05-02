@@ -1,0 +1,74 @@
+.contact {
+  text-align: center;
+}
+
+.subtitle {
+  color: #7a5c4d;
+  margin-bottom: 30px;
+  font-family: "Inter", sans-serif;
+}
+
+/* GRID LAYOUT */
+.contact-box {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+/* BUTTON STYLE */
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 140px;
+  height: 140px;
+
+  background: white;
+  border-radius: 20px;
+
+  text-decoration: none;
+  color: #7a5c4d;
+
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+
+  transition: all 0.3s ease;
+}
+
+/* ICON SIZE */
+.contact-item svg {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* HOVER EFFECT (this makes it feel premium) */
+.contact-item:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  color: #000;
+}
+
+.contact-item:hover:nth-child(2) {
+  color: #e1306c; /* Instagram vibe */
+}
+
+@media (max-width: 600px) {
+  .contact-box {
+    gap: 15px;
+  }
+
+  .contact-item {
+    width: 100px;
+    height: 100px;
+    font-size: 12px;
+  }
+
+  .contact-item svg {
+    font-size: 22px;
+  }
+}

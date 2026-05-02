@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background: #f5efe6;
+  color: #b23a2b;
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  padding: 60px 80px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* PREVENT ENTIRE PAGE FROM SIDEWAYS SCROLLING */
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* ABOUT PAGE */
+.about-page {
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* ALL ELEMENTS */
+* {
+  box-sizing: border-box;
+}
+
+/* MEDIA LINKS ROW */
+.media-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+/* IMAGE SECTION */
+.about-right {
+  width: 100%;
+  padding-left: 0;
+  margin: 0 auto;
+}
+
